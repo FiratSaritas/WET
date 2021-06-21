@@ -1,1 +1,1 @@
-web: gunicorn sampsite.wsgi --log-file -
+web: gunicorn manage --log-file -
