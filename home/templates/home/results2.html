@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+	<title>Landschaftsbau</title>
+</head>
+<body>
+	<div class="back_button">
+		<form action="../" method="get" style="display: inline">
+			<input type="submit" value="Home">
+		</form>
+	</div>
+	<header>
+		<div class="header-text">
+			<h1>Landschaftsbau</h1>
+			<div class="vertical-line"></div>
+			<p>Füllen Sie das Formular aus.</p>
+		</div><!-- End HeaderText -->
+	</header>
+	<link href="../../static/home/style1.css" rel="stylesheet" type="text/css">
+	<div class="container">
+		<form action="mailto:firatsaritas@hotmail.ch?subject=Landschaftsbau_Service" enctype="text/plain" method="post">
+			<label for="fname">Vorname</label><br>
+			<input id="fname" name="firstname" placeholder="Dein Vorame.." type="text"><br>
+			<label for="lname">Name</label><br>
+			<input id="lname" name="lastname" placeholder="Dein Name.." type="text"><br>
+			<label for="country">Land</label><br>
+			<select id="country" name="country">
+				<option value="schweiz">
+					Schweiz
+				</option>
+				<option value="deutschland">
+					Deutschland
+				</option>
+				<option value="oesterreich">
+					Österreich
+				</option>
+			</select><br>
+			<label for="adress">Adresse / Postleitzahl</label><br>
+			<input id="adress" name="adress" placeholder="z.B: Rebbergstrasse 21, 5621" type="text"><br>
+			<label for="comment">Bemerkung</label><br>
+			<textarea id="comment" name="comment" placeholder="Wo liegt das Problem?" style="height:200px"></textarea><br>
+			<input type="submit" value="Anfrage senden">
+		</form>
+	</div>
+	<div class="slidershow middle">
+		<div class="slides">
+			<input checked id="r1" name="r" type="radio"> <input id="r2" name="r" type="radio"> <input id="r3" name="r" type="radio"> <input id="r4" name="r" type="radio"> <input id="r5" name="r" type="radio">
+			<div class="slide s1"><img alt="" src="../../static/home/images/L1.jpg"></div>
+			<div class="slide"><img alt="" src="../../static/home/images/L2.jpg"></div>
+			<div class="slide"><img alt="" src="../../static/home/images/L3.jpg"></div>
+			<div class="slide"><img alt="" src="../../static/home/images/L4.jpg"></div>
+		</div>
+		<div class="navigation">
+			<label class="bar" for="r1"></label> <label class="bar" for="r2"></label> <label class="bar" for="r3"></label> <label class="bar" for="r4"></label>
+		</div>
+	</div>
+</body>
+</html>
