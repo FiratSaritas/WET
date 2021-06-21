@@ -19,6 +19,7 @@ docutils==0.15.2
 entrypoints==0.3
 et-xmlfile==1.0.1
 filelock==3.0.12
+gunicorn==20.1.0
 idna==2.9
 ijson==2.6.1
 ipykernel==5.1.4
